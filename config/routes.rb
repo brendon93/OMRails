@@ -1,5 +1,5 @@
 Omrails::Application.routes.draw do
-  get 'storage' => 'pages#storage'
+  get 'loggedinhome' => 'pages#loggedinhome'
 
   root :to => 'pages#home'
 
