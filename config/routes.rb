@@ -1,6 +1,7 @@
 Omrails::Application.routes.draw do
   get 'loggedinhome' => 'pages#loggedinhome'
-
+  get 'bootstrap' => 'pages#bootstrap'
+  
   root :to => 'pages#home'
 
   # The priority is based upon order of creation:
